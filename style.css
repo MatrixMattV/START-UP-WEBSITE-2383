@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: darkslategrey;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 16px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 4px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid black;
+    background: red;
+    color: aliceblue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content {
+    max-width: 1200px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.main-content button {
+    margin-top: 24px;
+    font-size: 20px;
+    padding: 8px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    background: red;
+    color: aliceblue;
+    border: none;
+}
+
+.pic-content {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+img {
+    position: absolute;
+    max-width: 670px;
+    left: -100px;
+    top: 15px;
+}
